@@ -2,7 +2,7 @@ package com.conditional_form.services
 
 import com.conditional_form.entity.User
 
-interface UserImplementation {
+interface IUserImplementation {
     suspend fun getAllUsers()
     suspend fun getUser(_id: String)
     suspend fun createUser(user: User)

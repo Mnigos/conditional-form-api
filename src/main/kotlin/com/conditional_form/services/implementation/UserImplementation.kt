@@ -1,10 +1,10 @@
 package com.conditional_form.services.implementation
 
 import com.conditional_form.entity.User
-import com.conditional_form.services.UserImplementation
+import com.conditional_form.services.IUserImplementation
 import org.litote.kmongo.coroutine.CoroutineClient
 
-class UserImplementation(mongoClient: CoroutineClient) : UserImplementation {
+class UserImplementation(mongoClient: CoroutineClient) : IUserImplementation {
 
     private val databaseName = "conditional_form"
     private val database = mongoClient.getDatabase(databaseName)
