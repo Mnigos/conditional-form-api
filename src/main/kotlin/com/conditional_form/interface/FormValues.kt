@@ -1,4 +1,4 @@
-package com.conditional_form.interfaces
+package com.conditional_form.`interface`
 
 interface FormValues {
     val courseType: String
