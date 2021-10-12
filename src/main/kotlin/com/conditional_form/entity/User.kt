@@ -7,8 +7,8 @@ import java.util.UUID
 
 data class User(
     @BsonId
-    val _id: String = UUID.randomUUID().toString(),
+    val _id: String? = UUID.randomUUID().toString(),
     val name: String,
     val formValues: FormValues,
-    val createdAt: LocalDateTime = LocalDateTime.now()
+    val createdAt: LocalDateTime? = LocalDateTime.now()
 )
