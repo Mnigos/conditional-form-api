@@ -6,7 +6,7 @@ val kodein_version: String by project
 
 plugins {
     application
-    kotlin("jvm") version "1.5.31"
+    kotlin("jvm") version "1.7.0"
 }
 
 group = "com.conditional_form"
